@@ -1,0 +1,1593 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #FCFCFD;
+    overflow-x: hidden;
+}
+
+.hero-box {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 120px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 72px 0 72px;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    z-index: 5;
+}
+
+header img {
+    width: 140px;
+    height: 40px;
+}
+
+.nav-header {
+    display: flex;
+    gap: 52px;
+    align-items: center;
+}
+
+.Home {
+    font-weight: 600;
+    color: #04B90B;
+}
+
+.Order {
+    background-color: #04B90B;
+    color: #FCFCFD;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.s1 {
+    position: relative;
+    z-index: 3;
+}
+
+.nd1 {
+    padding-left: 72px;
+    padding-top: 116px;
+}
+
+.h1-s1 {
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 1.15;
+    color: #141416;
+}
+
+.p-s1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 600px;
+    margin-top: 16px;
+    color: #777E90;
+    line-height: 1.6;
+}
+
+.cta1 {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding-top: 36px;
+    font-family: "Poppins", sans-serif;
+}
+
+.info1 {
+    background-color: #F4F5F6;
+    margin-top: 140px;
+    width: fit-content;
+    margin-left: 72px;
+    border-radius: 16px;
+    padding: 28px 56px;
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    margin-bottom: 52px;
+}
+
+.info1-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info1-so {
+    font-weight: 600;
+    font-size: 32px;
+    color: #777E90;
+    font-family: "Poppins", sans-serif;
+}
+
+.nd-info1 {
+    font-weight: 400;
+    font-size: 18px;
+    color: #777E90;
+    font-family: "Poppins", sans-serif;
+}
+
+img {
+    z-index: 2;
+}
+
+.xanh {
+    position: absolute;
+    top: 180px;
+    right: -450px;
+    width: 1200px;
+    height: 1200px;
+    background-color: #DDF3D8;
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.bimbap {
+    position: absolute;
+    top: 200px;
+    right: 120px;
+    z-index: 2;
+}
+
+.sugar {
+    position: absolute;
+    top: 260px;
+    right: 60px;
+    z-index: 2;
+}
+
+.dua {
+    position: absolute;
+    top: 620px;
+    right: 340px;
+    z-index: 2;
+}
+
+.s2 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 3;
+    justify-content: center;
+    align-items: center;
+    background-color: #FCFCFD;
+    padding: 0 72px;
+    width: 100%;
+    padding-bottom: 80px;
+}
+
+.header-s2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 770px;
+    gap: 12px;
+}
+
+.h1-s2 {
+    display: flex;
+    font-weight: 400;
+    font-size: 48px;
+    font-family: "Alice", serif;
+    gap: 12px;
+    justify-content: center;
+    padding-top: 120px;
+}
+
+.special {
+    color: #04B90B;
+}
+
+.p-s2 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: #777E90;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.mon {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    gap: 32px;
+    padding-top: 80px;
+}
+
+.ndmon {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 0 24px 24px 24px;
+    font-family: "Poppins", sans-serif;
+}
+
+.mon1, .mon2, .mon3 {
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.04);
+    flex: 1;
+}
+
+.mon2{
+   max-width: 440px;
+    background-color: white;
+}
+.mon1, .mon3 {
+    align-self: flex-start;
+    max-width: 380px;
+}
+
+.anhmon img {
+    width: 100%;
+    object-fit: contain;
+}
+ .mon2 .anhmon{
+    max-height: 270px
+ }
+.danhgia {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    font-size: 14px;
+    color: #777E90;
+}
+
+.gia {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.giatien {
+    color: #04B90B;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.tenmon {
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hot {
+    border: 1px solid #04B90B;
+    color: #04B90B;
+    border-radius: 6px;
+    padding: 4px 8px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+li {
+    margin-left: 24px;
+    color: #777E90;
+    font-size: 14px;
+}
+
+.quatrang {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 48px;
+}
+
+.mtp {
+    border: 2px solid #E6E8EC;
+    border-radius: 40px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.s3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0 72px;
+}
+
+.h1-s3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: "Alice", serif;
+    padding-top: 60px;
+}
+
+.michelin {
+    color: #04B90B;
+}
+
+.baiviet {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1296px;
+    gap: 80px;
+    padding-top: 80px;
+}
+
+.chef {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.chef img {
+    width: 100%;
+    max-width: 520px;
+    height: auto;
+    display: block;
+}
+
+.nd-s3 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    max-width: 650px;
+    gap: 16px;
+}
+
+.h1-nds3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #04B90B;
+    font-family: "Alice", serif;
+}
+
+.ndc-h1s3 {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.them-s3 {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.p-s3 {
+    font-family: "Poppins", sans-serif;
+    color: #777E90;
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+.them-s3-2 {
+    display: none;
+}
+
+.s4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 72px;
+}
+
+.h1-s4 {
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-size: 48px;
+    text-align: center;
+    max-width: 480px;
+    margin-top: 100px;
+}
+
+.deli {
+    color: #04B90B;
+}
+
+.nd-s4 {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    width: 100%;
+    max-width: 1296px;
+    gap: 64px;
+    padding-top: 80px;
+}
+
+.kieu1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    gap: 24px;
+    padding: 40px 32px;
+}
+
+.img-s4 {
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 5px 9px 16px 0px rgba(0, 0, 0, 0.04);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+}
+
+.ndkieu1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.h1-kieu1 {
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.p-kieu1 {
+    font-family: "Poppins", sans-serif;
+    color: #777E90;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.giua {
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.04);
+}
+
+.s5 {
+    padding: 0 72px;
+}
+
+.h1-s5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding-top: 100px;
+}
+
+.h1s5 {
+    font-weight: 400;
+    font-size: 48px;
+    font-family: "Alice", serif;
+}
+
+.now {
+    color: #04B90B;
+}
+
+.p-s5 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    max-width: 770px;
+    text-align: center;
+    color: #777E90;
+}
+
+.tasks5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1180px;
+    margin: 80px auto 0 auto;
+    gap: 60px;
+}
+
+.form {
+    font-family: "Poppins", sans-serif;
+    width: 524px;
+    flex-shrink: 0;
+}
+
+.nd-h1form {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.p-h1form {
+    color: #777E90;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.chon {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.chon1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 24px;
+}
+
+.sym {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.view {
+    color: #04B90B;
+    cursor: pointer;
+}
+
+.chon2 {
+    display: flex;
+    border-radius: 12px;
+    border: 1px solid #777E90;
+    padding: 12px 20px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.g-chon2 {
+    justify-content: space-between;
+}
+
+.mtx {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chon3 {
+    color: #04B90B;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.ordername, .number {
+    color: #353945;
+    font-size: 14px;
+}
+
+.chon4 {
+    display: flex;
+    gap: 16px;
+}
+
+.w-c4 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.chon5 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.w-c6 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.w-c7 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.h-c7 {
+    height: 114px;
+    display: flex;
+    border-radius: 12px;
+    border: 1px solid #777E90;
+    padding: 12px 20px;
+}
+
+.tientra {
+    color: #04B90B;
+    font-weight: 600;
+}
+
+.Order-c9 {
+    background-color: #04B90B;
+    color: #FCFCFD;
+    border-radius: 8px;
+    padding: 12px 24px;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.ship {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ship img {
+    max-width: 100%;
+    height: auto;
+}
+
+.mo {
+    color: #777E90;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 80px 72px;
+    font-family: "Poppins", sans-serif;
+    gap: 48px;
+}
+
+.h1-footer {
+    display: flex;
+    flex-direction: column;
+    max-width: 336px;
+    gap: 16px;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.h1-footer img {
+    width: 140px;
+    height: 40px;
+}
+
+.p-footer {
+    color: #777E90;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.o2, .o3 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.indam {
+    font-weight: 600;
+    color: #141416;
+}
+
+.MTQT {
+    display: none;
+}
+@media screen and (max-width: 1032px) { 
+    header{
+        display: flex;
+    }
+    .nav-header{
+        display: flex;
+        gap: 0;
+        width: 460px;
+        justify-content: space-between;
+    }
+    .bimbap img{
+        width: 326px;
+        height: 326px;
+    }
+    .bimbap{
+    position: absolute;
+    top: 344px;
+    left: 580px;
+    z-index: 2;
+    }
+
+    .sugar img{
+        width: 63px;
+        height: 60px;
+    }
+    .sugar{
+    position: absolute;
+    top: 336px;
+    left: 880px;
+    }
+    .dua{
+    position: absolute;
+    top: 472px;
+    left: 580px;
+    }
+    .dua img{
+        width: 205px;
+        height: 371px;
+    }
+    .xanh{
+        width: 1000px;
+        height: 903px;
+        top: 300px;
+    }
+    .nd1{
+    width: 852px;
+    padding-left: 48px;
+    padding-top: 180px;
+    }
+    .h1-s1{
+    font-family:"", serif;
+    font-weight: 400;
+    font-size: 56px;
+    }
+
+.p-s1{
+    font-family: "Poppins", sans-serif; 
+    font-size: 20px;
+    font-weight: 400;
+    width: 516px;
+    }
+    .info1{
+    background-color: #F4F5F6;
+    margin-top: 82px;
+    width: 414px;
+    margin-left: 48px;
+    border-radius: 16px;
+    height: 100px;
+    padding: 16px;
+    display: flex;
+    gap: 36px;
+    margin-bottom: 58px;
+}
+
+.info1-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info1-so{
+    font-weight: 600;
+    font-size: 24px;
+    color: #777E90;
+}
+
+.nd-info1{
+    font-weight: 400;
+    font-size: 18px;
+    color: #777E90;
+    font-family: "Poppins", sans-serif; 
+}
+.mon{
+    display: flex;
+    align-items: center;
+    width: 928px;
+    padding-top: 80px;
+    justify-content: space-between;
+}
+.danhgia{
+    display: flex;
+    width: 190px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+.danhgia img{
+    width: 96px;
+}
+.gia{
+    display: flex;
+    align-items: center;
+    width: 235px;
+    justify-content: space-between;
+    height: 40px;
+}
+.giatien{
+    color: #04B90B;
+    font-weight: 400;
+    font-size: 28px;
+}
+.tenmon{
+    font-family:"Alice", serif;
+    font-weight: 400;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hot{
+    border: 1px solid #04B90B;
+    color: #04B90B;
+    border-radius: 6px;
+    padding: 4px 8px 4px 8px;
+    display: flex;
+    gap: 10px;
+}
+.mon1 .anhmon img , .mon3 .anhmon img{
+    align-self: flex-start;
+    width: 283px;
+}
+.mon2 .anhmon img{
+    width: 310px;
+}
+.chef img {
+    width: 351px;
+    height: 313px;
+}
+.nd-s3{
+    display: flex;
+    flex-direction: column;
+    width: 468px;
+    justify-content: space-between;
+    margin: 16px 0 16px 61px;
+    gap: 12px;
+}
+.ndc-h1s3{
+    font-weight: 400;
+    font-size: 18px;
+}
+.them-s3{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    width: 166px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.them-s3-2{
+    display: none;
+}
+.nd-s4{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 107px 48px 80px 48px;
+}
+.kieu1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 296px;
+    gap: 24px;
+    border-radius: 12px;
+    padding: 28px 24px 28px 24px;
+}
+.form{
+    font-family:"Poppins", sans-serif;
+    margin-top: 104px;
+    margin-left: 48px;
+    width: 524px;
+}
+.ship img{
+    width: 430px;
+    height: 343px;
+}
+.ship{
+    position: absolute;
+    left: 567px;
+    padding-left: 0;
+    padding-top: 220px;
+}
+footer{
+    display: flex;
+    margin-left: 48px;
+    font-family: "Poppins" , sans-serif;
+}
+.h1-footer img{
+    width: 140px;
+    height: 40px;
+}
+.h1-footer{
+    display: flex;
+    flex-direction: column;
+    width: 336px;
+    gap: 12px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 142px;
+}
+.o2{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 73px;
+}
+.o3{
+     display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 71px;
+}
+.o4{
+    padding-right: 48px;
+}
+
+.MTQT{
+    display: none;
+}
+}
+@media screen and (max-width: 769px) {
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    
+    header {
+        padding: 20px 32px 0 32px;
+        align-items: center;
+    }
+
+    header img {
+        width: 112px;
+        height: auto;
+    }
+
+    .nav-header {
+        gap: 24px;
+        font-size: 14px;
+    }
+
+    .Order {
+        padding: 8px 14px;
+    }
+
+  
+    .hero-box {
+        padding-bottom: 48px;
+    }
+
+    .xanh {
+        top: 120px;
+        right: -280px;
+        width: 600px;
+        height: 560px;
+    }
+
+    .bimbap img {
+        width: 260px;
+        height: 260px;
+    }
+
+    .bimbap {
+        top: 130px;
+        left: auto;
+        right: 24px;
+    }
+
+    .sugar img {
+        width: 44px;
+        height: 42px;
+    }
+
+    .sugar {
+        top: 118px;
+        left: auto;
+        right: 16px;
+    }
+
+    .dua{
+    position: absolute;
+    top: 300px;
+    left: 450px;
+    }
+    .dua img{
+        width: 205px;
+        height: 200px;
+    }
+
+    .nd1 {
+        width: 440px;
+        padding-left: 32px;
+        padding-top: 64px;
+    }
+
+    .h1-s1 {
+        font-family: "Alice", serif;
+        font-size: 40px;
+    }
+
+    .p-s1 {
+        font-size: 14px;
+        width: 390px;
+        margin-top: 12px;
+    }
+
+    .cta1 {
+        padding-top: 20px;
+        width: 220px;
+        font-size: 14px;
+    }
+
+    .info1 {
+        margin-top: 36px;
+        margin-left: 32px;
+        width: 340px;
+        height: auto;
+        padding: 14px 20px;
+        gap: 28px;
+        margin-bottom: 24px;
+    }
+
+    .info1-so {
+        font-size: 20px;
+    }
+
+    .nd-info1 {
+        font-size: 13px;
+    }
+
+    
+    .header-s2 {
+        width: 100%;
+        padding: 0 32px;
+    }
+
+    .h1-s2 {
+        font-size: 32px;
+        width: auto;
+        gap: 10px;
+        padding-top: 56px;
+    }
+
+    .p-s2 {
+        font-size: 14px;
+        max-width: 460px;
+    }
+
+    .mon {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 100%;
+        padding: 40px 32px 0 32px;
+        gap: 16px;
+    }
+
+    .mon1,
+    .mon2,
+    .mon3 {
+        flex: 1;
+        min-width: 0;
+        border-radius: 12px;
+    }
+
+    .mon1 .anhmon img,
+    .mon2 .anhmon img,
+    .mon3 .anhmon img {
+        width: 100%;
+        height: 140px;
+        object-fit: cover;
+    }
+
+    .ndmon {
+        padding: 12px 14px 16px 14px;
+        gap: 8px;
+    }
+
+    .tenmon {
+        font-size: 18px;
+        gap: 6px;
+    }
+
+    .hot {
+        font-size: 10px;
+        padding: 2px 6px;
+    }
+
+    .danhgia {
+        width: auto;
+        gap: 8px;
+        font-size: 11px;
+    }
+
+    .danhgia img {
+        width: 72px;
+    }
+
+    .gia {
+        width: 100%;
+        height: auto;
+        gap: 8px;
+    }
+
+    .giatien {
+        font-size: 18px;
+    }
+
+    .quatrang {
+        margin-top: 28px;
+        padding-bottom: 48px;
+    }
+
+    .h1-s3 {
+        font-size: 32px;
+        width: auto;
+        gap: 10px;
+        padding-top: 40px;
+    }
+
+    .baiviet {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 40px 32px 0 32px;
+        gap: 24px;
+    }
+
+    .chef img {
+        width: 240px;
+        height: auto;
+    }
+
+    .nd-s3 {
+        flex: 1;
+        width: auto;
+        margin: 0;
+        gap: 10px;
+    }
+
+    .ndc-h1s3 {
+        font-size: 16px;
+    }
+
+    .nd-s3 p,
+    .them-s3 {
+        font-size: 12px;
+    }
+
+    .them-s3-2{
+    display: none;
+    }
+   
+    .h1-s4 {
+        font-size: 32px;
+        width: auto;
+        margin-top: 40px;
+    }
+
+    .nd-s4 {
+        justify-content: space-between;
+        width: 100%;
+        gap: 16px;
+        padding: 48px 32px 48px 32px;
+    }
+
+    .kieu1 {
+        flex: 1;
+        width: auto;
+        padding: 20px 12px;
+        gap: 12px;
+    }
+
+    .img-s4 {
+        width: 72px;
+        height: 72px;
+    }
+
+    .img-s4 img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .h1-kieu1 {
+        font-size: 18px;
+    }
+
+    .p-kieu1 {
+        font-size: 12px;
+    }
+
+   
+    .h1s5 {
+        font-size: 32px;
+        padding: 0 32px;
+        text-align: center;
+    }
+
+    .p-s5 {
+        font-size: 14px;
+        width: auto;
+        max-width: 480px;
+        padding: 0 32px;
+    }
+
+    .tasks5 {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 100%;
+        padding: 40px 32px 0 32px;
+        gap: 20px;
+    }
+
+    .form {
+        margin-top: 0;
+        margin-left: 0;
+        width: 360px;
+        flex-shrink: 0;
+    }
+
+    .nd-h1form {
+        font-size: 18px;
+    }
+
+    .g-chon2 {
+        gap: 12px;
+    }
+
+    .chon4 {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .chon6 .w-c4 {
+        flex: 1;
+        width: auto;
+    }
+
+    .chon4 .w-c4{
+        width: 220px;
+    }
+
+    .chon4 .sdt{
+        font-size: 10px;
+        height: 45.6px;
+    }
+    .chon4 img {
+        width: 12px;
+        height: 12px;
+    }
+    .ship {
+        position: static;
+        flex: 1;
+        display: flex;
+        justify-content: center;
+    }
+
+    .ship img {
+        width: 330px;
+        height: 343px;
+    }
+
+    footer {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-left: 0;
+        padding: 40px 32px 48px 32px;
+        gap: 16px;
+        font-size: 12px;
+    }
+
+    .h1-footer {
+        width: 190px;
+        padding: 0;
+        gap: 10px;
+        flex-shrink: 0;
+    }
+
+    .h1-footer img {
+        width: 100px;
+        height: auto;
+    }
+
+    .o2,
+    .o3,
+    .o4 {
+        padding: 0;
+        gap: 12px;
+        flex: 1;
+    }
+
+    .MTQT{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        padding: 16px 20px;
+        align-items: center;
+    }
+
+    header img {
+        width: 59px;
+        height: 18px;
+    }
+
+
+    .nav-header {
+        display: none; 
+    }
+
+ 
+    .hero-box {
+        padding-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nd1 {
+        width: 306px;
+        justify-self: center;
+        padding-top: 60px;
+        text-align: center;
+        margin: 0 35px 313px 35px;
+        padding-left: 0;
+    }
+
+    .h1-s1 {
+        font-size: 32px;
+        
+    }
+
+    .p-s1 {
+        width: 100%;
+        font-size: 18px;
+        margin-top: 12px;
+        color: #777E90;
+    }
+
+    .cta1 {
+        width: auto;
+        justify-content: center;
+        gap: 16px;
+        padding-top: 24px;
+    }
+
+    .Home{
+        display: none;
+    }
+
+    .info1 {
+        display: none;
+    }
+
+    .xanh {
+        width: 480px;
+        height: 480px;
+        top: 320px;
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .xanh {
+        width: 480px;
+        height: 480px;
+        top: 500px;
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .bimbap img{
+        width: 202px;
+        height: 202px;
+    }
+    .bimbap{
+    position: absolute;
+    top: 439px;
+    left: 123px;
+    right: 81px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    }
+    .sugar img{
+        width: 37px;
+        height: 36px;
+    }
+    .sugar{
+    position: absolute;
+    top: 593px;
+    left: 319px;
+    right: 51px;
+    }
+    .dua{
+    position: absolute;
+    top: 555px;
+    left: 20px;
+    rotate: 16.08deg;
+    }
+    .dua img{
+        width: 186px;
+        height: 198px;
+    }
+
+    .header-s2 {
+        padding: 0 20px;
+    }
+
+    .h1-s2 {
+        font-size: 26px;
+        padding-top: 40px;
+        gap: 6px;
+    }
+
+    .p-s2 {
+        font-size: 14px;
+        color: #777E90;
+        align-self: center;
+        width: 327px;
+    }
+
+    .mon {
+        flex-direction: column;
+        padding: 32px 20px 0 20px;
+        gap: 24px;
+    }
+
+    .mon1, .mon3{
+        display: none;
+    }
+
+    .mon2 {
+        width: 100%;
+        box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+        border-radius: 16px;
+    }
+
+    .mon2 .anhmon img {
+        width: 100%;
+        height: 200px;
+        object-fit: contain;
+        padding-top: 16px;
+    }
+
+    .ndmon {
+        padding: 16px 20px 24px 20px;
+    }
+
+    .tenmon {
+        font-size: 22px;
+    }
+
+    .giatien {
+        font-size: 24px;
+    }
+
+    .chef {
+        display: none;
+    }
+
+    .nd-s3{
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .them-s3{
+        display: none;
+    }
+    .them-s3-2{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    width: 166px;
+    justify-content: space-between;
+    align-items: center;
+    color: #04B90B;
+    }
+
+    .nd-s4{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:87px;
+    padding-top: 107px;
+    }
+
+    .kieu1 {
+        flex: 1;
+        width: 296px;
+        margin-left: 40px;
+        margin-right: 40px;
+        gap: 12px;
+    }
+
+    .form{
+    font-family:"Poppins", sans-serif;
+    width: 100%;
+    }
+
+    .ship {
+        display: none;
+    }
+
+    footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins" , sans-serif;
+    align-items: center;
+    justify-content: center;
+    }
+    .h1-footer{
+    display: flex;
+    flex-direction: column;
+    width: 327px;
+    gap: 12px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    }
+
+    .o2  .mo{
+        display: none;
+    }
+
+    .o3 .mo{
+        display: none;
+    }
+
+    .o2 , .o3{
+        align-self: flex-start;
+        width: 100%;
+    }
+
+    .MTQT{
+        display: flex;
+    }
+    .indam{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .chon4{
+        flex-direction: column;
+    }
+}
